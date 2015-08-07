@@ -1,5 +1,9 @@
-url: https://y7kim.github.io
-#baseurl: /apex-net-website-new
+url: https://teopost.github.io
+# in locale
+#baseurl: /
+
+# su teopost apex
+baseurl: /apex-net-website-new
 
 # Site settings
 title: Apex-net s.r.l
