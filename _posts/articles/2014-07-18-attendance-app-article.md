@@ -26,7 +26,8 @@ Login
 
 The login screen appears when the app is opened for the first time or when the user is logged out.
 
-![](/img/articles/attendance-app/1.png)
+![](../../img/articles/attendance-app/1.png)
+
 
 <hr>
 
@@ -35,17 +36,17 @@ Mark your Attendance
 
 Marking your attendance is a single step process. All you have to do is type the unique pin.
 
-![](/img/articles/attendance-app/2.png)
+![](../../img/articles/attendance-app/2.png)
 
-![](/img/articles/attendance-app/3.png)
+![](../../img/articles/attendance-app/3.png)
 
-![](/img/articles/attendance-app/4.png)
+![](../../img/articles/attendance-app/4.png)
 
-![](/img/articles/attendance-app/5.png)
+![](../../img/articles/attendance-app/5.png)
 
 Future update
 ===
 
 Marking your attendance is a single step process. All you have to do is type the unique pin.
 
-![](/img/articles/attendance-app/6.png)
+![](../../img/articles/attendance-app/6.png)
