@@ -7,7 +7,8 @@
 body {
     overflow-x: hidden;
     font-family: Oxygen, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
     color: #{{ site.color.secondary-dark }};
 }
 
@@ -22,8 +23,9 @@ body {
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(153,153,153);
 }
 
 p.large {
@@ -55,9 +57,10 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+
     font-family: Oxygen, sans-serif;
-    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
 }
 
 .img-centered {
@@ -120,19 +123,6 @@ fieldset[disabled] .btn-primary.active {
     color: #{{ site.color.primary }};
     background-color: #fff;
 }
-
-/*
- .wsite-button { display: inline-block; padding: 0px; font-size: .8em !important; padding: .85em 1.5em; border-radius: 6px; max-width: 100%; background: #4CAAC9 !important; height: auto !important; line-height: 1 !important; box-sizing: border-box; }
- .wsite-button-inner { color: #fff !important; background: none !important; padding: 0 !important; line-height: 1 !important; height: auto !important; font-family:'Oxygen', sans-serif; display: block; font-size: 1em; font-weight:600; text-decoration:none ; text-transform:uppercase; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
- .wsite-button:hover, .wsite-button:active { background: #5EC2E2 !important; }
- .wsite-button-large { color: #fff; padding:0px ; font-weight:400 ; text-decoration:none ; font-size: 1em !important; padding: .85em 1.8em; }
- .wsite-button-large:hover .wsite-button-inner { background: #5EC2E2; }
- .wsite-button-large:active .wsite-button-inner { background: #5EC2E2; }
- .wsite-button-highlight { background: none; background: #fff !important; border:2px solid #4CAAC9; }
- .wsite-button-highlight .wsite-button-inner { color: #4caac9 !important; font-family:'Oxygen', sans-serif; font-weight:400 ; text-decoration:none; }
- .wsite-button-highlight:hover, .wsite-button-highlight:active .wsite-button-inner { background: #4caac9 !important; border:2px solid #4caac9; }
- .wsite-button-highlight:hover .wsite-button-inner, .wsite-button-highlight:active .wsite-button-inner { color:#fff !important; }
- */
 
 .btn-xl {
     padding: 20px 40px;
@@ -283,15 +273,14 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-
     background-image: -webkit-linear-gradient( 0deg, rgba(16,175,226,0.9) 0%, rgba(27,136,196,0.9) 50%, rgba(38,101,168,0.9) 100%), url(img/header-bg.jpg);
-
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 600px;
 }
 
 header .intro-text {
@@ -334,10 +323,12 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 70px;
         font-weight: 700;
         line-height: 75px;
+        text-align: left;
     }
+
 }
 
 section {

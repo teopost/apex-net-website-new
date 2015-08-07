@@ -10,9 +10,12 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!--  <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a> -->
-                <A href="{{ site.baseurl }}">
+                  <!--
+                                <img src="{{ site.baseurl }}/img/{{ page.category }}/{{ page.title }}/banner.png" class="img-responsive" alt="">
+                            -->
+                <A href="/">
                   <img src="{{ site.baseurl }}/img/company-logo.png" class="img-responsive" alt="">
-                  </A>
+                </A>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,23 +24,25 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+                    <!--
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="http://127.0.0.1:4000/#services">Services</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
-<!--
+
                     <li>
                         <a class="page-scroll" href="#clients">Clienti</a>
                     </li>
--->
+
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -50,10 +55,8 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in"></div>
-                <div class="intro-heading">Ideas to touch.</div>
-                  <div class="intro-heading">
-                <a href="#services" class="page-scroll btn btn-xl text-left">Tell Me More</a>
-                </div>
+                <div class="intro-heading"> {{ page.title }} </div>
+
             </div>
         </div>
     </header>
