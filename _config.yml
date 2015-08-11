@@ -5,6 +5,8 @@ url: https://teopost.github.io
 # su teopost apex
 baseurl: /apex-net-website-new
 
+permalink: /:categories/:title
+
 # Site settings
 title: Apex-net s.r.l
 email: info@apexnet.it
