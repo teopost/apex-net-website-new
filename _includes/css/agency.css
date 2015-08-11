@@ -63,6 +63,12 @@ h6 {
     font-weight: 300;
 }
 
+img {
+  width:auto;
+  height: auto;;
+  max-width:100%;
+}
+
 .img-centered {
     margin: 0 auto;
 }
