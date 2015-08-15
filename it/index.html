@@ -43,14 +43,18 @@
 
     <script type="text/javascript">
   	var userLang = navigator.language || navigator.userLanguage;
-  	if(userLang.indexOf("it") > -1) {
-
+    // alert(userLang);
+    // La lingua del browser è it ?
+  	if(userLang.indexOf("it") > -1)
+    {
+      // SI. Se nell'url non c'è già it faccio il redirect
       if (window.location.href.indexOf("/it/") == -1)
-  		   window.location.replace("/apex-net-website-new/it/")
+      {
+          // alert("sono qua");
+  		    window.location.replace("/apex-net-website-new/it/")
+      }
   	}
-  	else {
-  		window.location.replace("/apex-net-website-new");
-  	}
+
   </script>
 
 
@@ -62,6 +66,8 @@
     <body id="page-top" class="index">
 
     <!-- Navigation -->
+
+
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -115,7 +121,7 @@
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contatti</a>
                     </li>
                 </ul>
             </div>
@@ -136,13 +142,15 @@
                 <div class="intro-lead-in"></div>
                 <div class="intro-heading">Ideas to touch.</div>
                   <div class="intro-heading">
-                <a href="#services" class="page-scroll btn btn-xl text-left">Tell Me More</a>
+                <a href="#services" class="page-scroll btn btn-xl text-left">Esplora</a>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Services Section -->
+    
+
+<!-- Services Section -->
     <section id="services">
         <div class="container">
             <div class="row">
@@ -161,15 +169,15 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Mobile Apps</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Sviluppo Mobile</h4>
+                    <p class="text-muted">APEX-net sviluppa applicazioni mobile per Android, IOS e Windows.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Web Development</h4>
+                    <h4 class="service-heading">Applicazioni Web</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
@@ -177,20 +185,22 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Sistem integration</h4>
+                    <h4 class="service-heading">Consulenza</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
+    
+
+<!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Recent Projects</h2>
+                    <h2 class="section-heading">Progetti Recenti</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
@@ -201,30 +211,6 @@
             
 
 
-            
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="/apex-net-website-new/portfolio/igamma-app-it"  class="portfolio-link">
-                  <!--  <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal"> -->
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x">
-
-                                </i>
-                            </div>
-                        </div>
-
-                        
-                        
-
-                        <img src="/apex-net-website-new/img/portfolio/igamma-app-it/thumb-igamma-app.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>iGamma</h4>
-                        <p class="text-muted">iGamma iPad App it
-
-                        </p>
-                    </div>
-                </div>
             
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="/apex-net-website-new/portfolio/attendance-app-it"  class="portfolio-link">
@@ -244,55 +230,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Attendance App</h4>
-                        <p class="text-muted">Attendance App description it
-
-                        </p>
-                    </div>
-                </div>
-            
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="/apex-net-website-new/portfolio/myesse3-app-it"  class="portfolio-link">
-                  <!--  <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal"> -->
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x">
-
-                                </i>
-                            </div>
-                        </div>
-
-                        
-                        
-
-                        <img src="/apex-net-website-new/img/portfolio/myesse3-app-it/thumb-myesse3-app.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>MyEsse3</h4>
-                        <p class="text-muted">MyEsse3 IOS & Android App it
-
-                        </p>
-                    </div>
-                </div>
-            
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="/apex-net-website-new/portfolio/imecc-app-it"  class="portfolio-link">
-                  <!--  <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal"> -->
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x">
-
-                                </i>
-                            </div>
-                        </div>
-
-                        
-                        
-
-                        <img src="/apex-net-website-new/img/portfolio/imecc-app-it/thumb-imecc-app.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>iMecc</h4>
-                        <p class="text-muted">iMecc iPad App it
+                        <p class="text-muted">App per IOS e Android per la registrazione degli studenti alle lezioni.
 
                         </p>
                     </div>
@@ -303,35 +241,11 @@
 
             
               <li class="">
-              <a href="/apex-net-website-new/portfolio/igamma-app-it">iGamma</a>
-              </li>
-            
-              <li class="">
-              <a href="/apex-net-website-new/portfolio/igamma-app-en">iGamma</a>
-              </li>
-            
-              <li class="">
               <a href="/apex-net-website-new/portfolio/attendance-app-it">Attendance App</a>
               </li>
             
               <li class="">
               <a href="/apex-net-website-new/portfolio/attendance-app-en">Attendance App</a>
-              </li>
-            
-              <li class="">
-              <a href="/apex-net-website-new/portfolio/myesse3-app-it">MyEsse3</a>
-              </li>
-            
-              <li class="">
-              <a href="/apex-net-website-new/portfolio/myesse3-app-en">MyEsse3</a>
-              </li>
-            
-              <li class="">
-              <a href="/apex-net-website-new/portfolio/imecc-app-it">iMecc</a>
-              </li>
-            
-              <li class="">
-              <a href="/apex-net-website-new/portfolio/imecc-app-en">iMecc</a>
               </li>
             
 
@@ -373,12 +287,14 @@
     </aside>
 
 
-    <!-- Team Section -->
+    
+
+<!-- Team Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">People</h2>
+                    <h2 class="section-heading">Persone</h2>
                     <h3 class="section-subheading text-muted"></h3>
 
                     <!--
@@ -395,11 +311,14 @@
                         <p class="text-muted">CEO</p>
                         <ul class="list-inline social-buttons">
                             
-                            <li><a href=""><i class="fa fa-twitter"></i></a>
+                             
+                            <li><a href="https://twitter.com/fabassi"><i class="fa fa-twitter"></i></a>
                             
-                            <li><a href=""><i class="fa fa-facebook"></i></a>
+                             
+                            <li><a href="https://www.facebook.com/fabassi"><i class="fa fa-facebook"></i></a>
                             
-                            <li><a href=""><i class="fa fa-stack-overflow"></i></a>
+                             
+                            <li><a href="https://instagram.com/fabas/"><i class="fa fa-instagram"></i></a>
                             
 
                         </ul>
@@ -413,11 +332,14 @@
                         <p class="text-muted">Product manager</p>
                         <ul class="list-inline social-buttons">
                             
-                            <li><a href=""><i class="fa fa-twitter"></i></a>
+                             
+                            <li><a href="https://twitter.com/teopost"><i class="fa fa-twitter"></i></a>
                             
-                            <li><a href=""><i class="fa fa-facebook"></i></a>
+                             
+                            <li><a href="https://www.facebook.com/steodorani"><i class="fa fa-facebook"></i></a>
                             
-                            <li><a href=""><i class="fa fa-linkedin"></i></a>
+                             
+                            <li><a href="https://plus.google.com/+StefanoTeodorani"><i class="fa fa-google-plus"></i></a>
                             
 
                         </ul>
@@ -431,11 +353,14 @@
                         <p class="text-muted">R&D Head</p>
                         <ul class="list-inline social-buttons">
                             
-                            <li><a href=""><i class="fa fa-twitter"></i></a>
+                             
+                            <li><a href="https://twitter.com/andreacalisesi"><i class="fa fa-twitter"></i></a>
                             
-                            <li><a href=""><i class="fa fa-facebook"></i></a>
+                             
+                            <li><a href="https://www.facebook.com/andrea.calisesi"><i class="fa fa-facebook"></i></a>
                             
-                            <li><a href=""><i class="fa fa-google-plus"></i></a>
+                             
+                            <li><a href="https://plus.google.com/106329355611967823330"><i class="fa fa-google-plus"></i></a>
                             
 
                         </ul>
@@ -456,11 +381,13 @@
 
 
 
-    <section id="contact">
+    
+
+<section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
+                    <h2 class="section-heading">Contatti</h2>
                     <h3 class="section-subheading text-muted">
                          Apex-Net Srl<br>
                          Via Cerchia di San Giorgio, 145<br>
