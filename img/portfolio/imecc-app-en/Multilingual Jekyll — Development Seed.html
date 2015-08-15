@@ -1,0 +1,2284 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://developmentseed.org/blog/multilingual-jekyll-sites/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+    
+  
+
+
+
+  
+
+
+
+
+  
+
+
+<title>Multilingual Jekyll — Development Seed</title>
+<meta name="description" content="Supporting multiple languages in static Jekyll sites">
+
+<!-- Twiter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@developmentseed">
+<meta name="twitter:title" content="Multilingual Jekyll — Development Seed">
+<meta name="twitter:description" content="Supporting multiple languages in static Jekyll sites">
+<meta name="twitter:image:src" content="https://developmentseed.org/assets/graphics/content/8660543209_d7cfa7b6b2_o-card.png">
+
+
+  
+  
+  <meta name="twitter:creator" content="@nas_smith">
+  
+
+
+<!--/ Twiter Cards -->
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Development Seed">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Multilingual Jekyll — Development Seed">
+<meta property="og:url" content="https://developmentseed.org/blog/multilingual-jekyll-sites">
+<meta property="og:description" content="Supporting multiple languages in static Jekyll sites">
+<meta property="og:image" content="https://developmentseed.org/assets/graphics/content/8660543209_d7cfa7b6b2_o-card.png">
+<!--/ Open Graph -->
+
+    <link rel="shortcut icon" href="https://developmentseed.org/assets/graphics/meta/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://developmentseed.org/assets/graphics/meta/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://developmentseed.org/assets/graphics/meta/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://developmentseed.org/assets/graphics/meta/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://developmentseed.org/assets/graphics/meta/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://developmentseed.org/assets/graphics/meta/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://developmentseed.org/assets/graphics/meta/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://developmentseed.org/assets/graphics/meta/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://developmentseed.org/assets/graphics/meta/apple-touch-icon-152x152.png">
+
+    <link rel="stylesheet" href="./Multilingual Jekyll — Development Seed_files/css" type="text/css">
+
+    <link rel="stylesheet" href="./Multilingual Jekyll — Development Seed_files/main.css" type="text/css">
+    <link rel="alternate" href="https://developmentseed.org/rss.xml" type="application/rss+xml">
+    <link rel="author" href="https://developmentseed.org/humans.txt" type="text/plain">
+
+    <script type="text/javascript" async="" id="gauges-tracker" data-site-id="4e9d9024613f5d1dfb000004" src="./Multilingual Jekyll — Development Seed_files/track.js"></script><script type="text/javascript" async="" src="./Multilingual Jekyll — Development Seed_files/ga.js"></script><script>
+      var DSO = window.DSO = {}; DSO.baseUrl = 'https://developmentseed.org';
+    </script><style type="text/css"></style>
+
+    <script src="./Multilingual Jekyll — Development Seed_files/deps.min.js" type="text/javascript"></script>
+    <script src="./Multilingual Jekyll — Development Seed_files/templates.js" type="text/javascript"></script>
+    <script src="./Multilingual Jekyll — Development Seed_files/main.min.js" type="text/javascript"></script>
+
+  </head>
+  
+    
+  
+  
+  
+  <body class="theme-pos drop-processed">
+  
+    <div id="site-canvas">
+
+      <header id="site-header" role="banner">
+        <div class="row inner-row">
+          <h1 id="site-title">
+            <a href="https://developmentseed.org/" title="Development Seed">
+              
+              <img src="./Multilingual Jekyll — Development Seed_files/ds-logo-pos.svg" alt="Development Seed logotype" width="188" height="32"> 
+                        
+              <span>Development Seed</span>
+            </a>
+          </h1>
+          <nav id="site-prime-nav" role="navigation" class="drop">
+            <h2 class="toggle-menu"><a href="https://developmentseed.org/blog/multilingual-jekyll-sites/#global-menu" title="Show menu" data-toggle="drop"><span>Browse</span></a></h2>
+            <div class="menu-wrapper">
+              <ul class="global-menu" id="global-menu">
+                <li class="">
+                  <a href="https://developmentseed.org/projects" title="View the projects"><span>Projects</span></a>
+                </li>
+                <li class="active">
+                  <a href="https://developmentseed.org/blog" title="View the blog"><span>Blog</span></a>
+                </li>
+                <li class="">
+                  <a href="https://developmentseed.org/team" title="View the team"><span>Team</span></a>
+                </li>
+                <li class="">
+                  <a href="https://developmentseed.org/about/who-we-are" title="Read about us"><span>About</span></a>
+                </li>
+                <li class="search"><a href="https://developmentseed.org/blog/multilingual-jekyll-sites/#search" title="Search content" data-search-open=""><span>Search</span></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main id="site-body" role="main">
+        
+
+<article class="page post">
+  <header class="page-header">
+    <div class="page-header-inner">
+      <div class="page-headline">
+        <p class="page-suptitle">By <a href="https://developmentseed.org/team/nate-smith/" title="View author">Nate Smith</a> on <time datetime="2013-04-23" pubdate="">Apr 23, 2013</time></p>
+        <h1 class="page-title">Multilingual Jekyll</h1>
+      </div>
+      
+      <div class="page-introduction">
+        <p>Supporting multiple languages in static Jekyll&nbsp;sites</p>
+      </div>
+      
+    </div>
+    
+  </header>
+  <div class="page-body"> 
+    <div class="row outer-row">
+      <div class="page-prose">
+        <p>Earlier <a href="http://developmentseed.org/blog/building-accessible-static-sites/">this week we outlined</a> how important it is to provide access for all users, regardless of ability, to the new <a href="http://developmentseed.org/blog/new-healthcare-gov-is-open-and-cms-free/">Healthcare.gov</a>. The website will also feature Spanish translations of all its content, another important step toward achieving full accessibility.</p>
+
+<p>Usually, implementing translated content into a workflow can be a challenging task. Questions arise about administration and management of the content, URL structure, site UI and end user experience. In our latest code sprint on developing the new healthcare.gov, we’re tackling this by focusing on creating a sustainable architecture for supporting translation and the workflow for publishing multiple translations.</p>
+
+<h3 id="how-to-set-up-a-multi-lingual-jekyll-site">How to set up a multi-lingual Jekyll site</h3>
+
+<p><a href="https://github.com/mojombo/jekyll">Jekyll</a> gives us a lot of control over our site’s structure, so we’re imposing a structure that facilitates managing multilingual content. We developed a sustainable architecture by focusing on three key components:</p>
+
+<ol>
+  <li>adding and maintaining content,</li>
+  <li>translating site elements,</li>
+  <li>and seamless use for the end user.</li>
+</ol>
+
+<p>Implementing multilingual support with Jekyll can be achieved by adding rules to govern how the site supports translation. Leveraging the YAML front matter for controlling page generation, we can create rules for metadata, url structure, posts with categories, custom paths, and site element translations.</p>
+
+<p><em>Metadata</em></p>
+
+<p>Every page is defined by a language key and Jekyll builds the site based on these keys and the structure. Metadata fields are used to define what layout and other information are used to generate a page. All posts must declare a <code>layout</code> and <code>lang</code> field:</p>
+
+<pre><code>---
+layout: default
+lang: en
+---
+</code></pre>
+
+<p><em>URL Structure</em></p>
+
+<p>Translated posts need to have an additional <code>categories</code> field that will be used in the URL. The url structure of healthecare.gov will look like <code>/:categories/:filename-title</code>. For translated content, the url will be <code>/es/title-of-the-page</code>.</p>
+
+<pre><code>---
+layout: default
+lang: es
+categories:
+    - es
+---
+</code></pre>
+
+<p>To keep the relationship between translations, both posts must use the same filename. Translated posts are nested in a directory with the language code as a subdirectory. Note, we do not translate file names, and they are never directly seen by end users of the website. This is so that they can be matched for editing in Prose.</p>
+
+<pre><code>/_posts/index.html
+/_posts/es/index.html
+/_posts/blog/2013-01-01-happy-new-year.md
+/_posts/blog/es/2013-01-01-happy-new-year.md
+</code></pre>
+
+<p>Additional categories can be appended, but using the rule of declaring <code>es</code> first, followed by the necessary categories matching both <code>es</code> and <code>en</code> translations:</p>
+
+<pre><code>---
+layout: default
+lang: es
+categories:
+    - es
+    - blog
+---
+</code></pre>
+
+<p><em>Site Elements</em></p>
+
+<p>Site elements like navigation items or UI controls need a translation as well and can be controlled by posts with global metadata. We tag this post with a <code>translations</code> tag. For any templates that have elements that need translation, we can assign load the global translation data by assigning site translations variable at the top of the page:</p>
+
+<pre><code>{% assign t = site.tags.translations[0] %}
+</code></pre>
+
+<p>A title element would then look like:</p>
+
+<pre><code>&lt;h1&gt;{{t.[page.lang].landing-page.title}}&lt;/h1&gt;
+</code></pre>
+
+<p>Since each page has a <code>page.lang</code> value, we can find the value we’re looking for in the appropriate language following this structure.</p>
+
+<p>The global translations post includes translated version of the title, like this:</p>
+
+<pre><code>en:
+    landing-page:
+        title: 'Some Title'
+es:
+    landing-page:
+        title: 'Título Ejemplo'
+</code></pre>
+
+<p>By leveraging these rules and managing translated content in posts and site wide translation files, we keep authoring content simple. <a href="http://prose.io/">Prose</a>, can now be used to create and manage posts and content. The next version of Prose will also have new features to make this process even more easy for content authors. This workflow puts an emphasis on writing content and providing human-translated content across the site.</p>
+
+<h2 id="next-up">Next up</h2>
+
+<p>We’re getting ready to release a Google Analytics plugin for Jekyll. It’s a drop-in plugin that will allow you to sort the content on your Jekyll site by any Google Analytics data you specify. We’re using it on healthcare.gov to sort content by popularity, so we can surface interesting and useful posts. We’re also gearing up for a major new version of Prose, as <a href="http://developmentseed.org/blog/building-a-new-prose/">Tristen outlined</a> a few weeks ago.</p>
+
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer">
+    <div class="row outer-row">
+      <section class="page-actions">
+        <h1>Actions</h1>
+        
+<p class="twitter-stats"><a href="https://twitter.com/search?q=developmentseed.org/blog/multilingual-jekyll-sites" title="View tweets" data-tweet-count="https://developmentseed.org/blog/multilingual-jekyll-sites">29 tweets</a> link to this.</p>
+
+        <ul class="page-elsewhere">
+  
+  <li class="drop dropup center">
+    <a href="https://developmentseed.org/blog/multilingual-jekyll-sites/#" title="Share" class="bttn-share" data-toggle="drop"><span>Share</span></a>
+    <div class="drop-content">
+      <ul class="drop-menu share-menu" role="menu">
+        <li class="has-icon-bef twitter"><a href="https://twitter.com/share?url=https://developmentseed.org/blog/multilingual-jekyll-sites" target="_blank" title="Share on Twitter">Twitter</a></li>
+        <li class="has-icon-bef facebook"><a href="http://facebook.com/sharer.php?u=https://developmentseed.org/blog/multilingual-jekyll-sites" target="_blank" title="Share on Facebook">Facebook</a></li>
+        <li class="has-icon-bef google-plus"><a href="https://plus.google.com/share?url=https://developmentseed.org/blog/multilingual-jekyll-sites" target="_blank" title="Share on Google+">Google+</a></li>
+      </ul>
+    </div>
+  </li>
+</ul>
+        
+
+<!-- START pager -->
+
+
+
+
+
+  
+  
+
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+    
+
+<ul class="page-pager">
+  <li>
+    
+    <a href="https://developmentseed.org/blog" title="View all" class="bttn-pager all"><span>All</span></a>
+    
+  </li>
+  <li>
+    
+    <a href="https://developmentseed.org/blog/google-analytics-jekyll-plugin" title="View previous" class="bttn-pager prev" data-pager-prev=""><span>Prev</span></a>
+    
+  </li>
+  <li>
+    
+    <a href="https://developmentseed.org/blog/2013/apr/22/week-dc-tech" title="View next" class="bttn-pager next" data-pager-next=""><span>Next</span></a>
+    
+  </li>
+</ul>
+<!-- END pager -->
+      </section>
+    </div>
+    
+    <div class="row outer-row">
+      <section class="page-colophon">
+        <h1 class="colophon-hd">
+          By 
+          <strong class="colophon-subject">
+            
+              
+            
+            
+            <a href="https://developmentseed.org/team/nate-smith/" title="View author"><span class="avatar"><img alt="Author avatar" width="256" height="256" src="./Multilingual Jekyll — Development Seed_files/nate.thumb.jpg"></span><span class="name">Nate Smith</span></a>
+            
+          </strong> 
+          on <time datetime="2013-04-23" pubdate="">Apr 23, 2013</time>
+        </h1>
+        <div class="colophon-prose">
+          
+          <p>Nate leads strategy, research, and helps run projects at Development Seed. He works closely with our team and our partners to execute successful projects.</p>
+          
+          
+          <p><a href="http://twitter.com/nas_smith" title="Follow author on Twitter">Follow @nas_smith</a> on Twitter.</p>
+          
+        </div>
+      </section>
+    </div>
+    
+
+    <!-- metabar -->
+    <div class="page-metabar revealed" data-metabar="">
+      <p class="meta-colophon has-avatar">
+        By 
+        <strong class="colophon-subject">
+          
+            
+          
+          
+          <a href="https://developmentseed.org/team/nate-smith/" title="View author"><span class="avatar"><img alt="Author avatar" width="256" height="256" src="./Multilingual Jekyll — Development Seed_files/nate.thumb.jpg"></span><span class="name">Nate Smith</span></a>
+          
+        </strong> 
+        on <time datetime="2013-04-23" pubdate="">Apr 23, 2013</time>
+      </p>
+      <div class="meta-actions">
+        
+<p class="twitter-stats"><a href="https://twitter.com/search?q=developmentseed.org/blog/multilingual-jekyll-sites" title="View tweets" data-tweet-count="https://developmentseed.org/blog/multilingual-jekyll-sites">29 tweets</a> link to this.</p>
+
+        <ul class="page-elsewhere">
+  
+  <li class="drop dropup center">
+    <a href="https://developmentseed.org/blog/multilingual-jekyll-sites/#" title="Share" class="bttn-share" data-toggle="drop"><span>Share</span></a>
+    <div class="drop-content">
+      <ul class="drop-menu share-menu" role="menu">
+        <li class="has-icon-bef twitter"><a href="https://twitter.com/share?url=https://developmentseed.org/blog/multilingual-jekyll-sites" target="_blank" title="Share on Twitter">Twitter</a></li>
+        <li class="has-icon-bef facebook"><a href="http://facebook.com/sharer.php?u=https://developmentseed.org/blog/multilingual-jekyll-sites" target="_blank" title="Share on Facebook">Facebook</a></li>
+        <li class="has-icon-bef google-plus"><a href="https://plus.google.com/share?url=https://developmentseed.org/blog/multilingual-jekyll-sites" target="_blank" title="Share on Google+">Google+</a></li>
+      </ul>
+    </div>
+  </li>
+</ul>
+        
+
+<!-- START pager -->
+
+
+
+
+
+  
+  
+
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+    
+
+<ul class="page-pager">
+  <li>
+    
+    <a href="https://developmentseed.org/blog" title="View all" class="bttn-pager all"><span>All</span></a>
+    
+  </li>
+  <li>
+    
+    <a href="https://developmentseed.org/blog/google-analytics-jekyll-plugin" title="View previous" class="bttn-pager prev" data-pager-prev=""><span>Prev</span></a>
+    
+  </li>
+  <li>
+    
+    <a href="https://developmentseed.org/blog/2013/apr/22/week-dc-tech" title="View next" class="bttn-pager next" data-pager-next=""><span>Next</span></a>
+    
+  </li>
+</ul>
+<!-- END pager -->
+      </div>
+    </div>
+    <!--/ metabar -->
+  </footer>
+</article>
+
+<script>
+  DSO.metabar.init();
+</script>
+        <section id="site-search" data-search-container=""><header class="search-header">
+  <div class="search-header-inner">
+    <h1>Search</h1>
+    <form name="search-form" class="search-form">
+      <input type="text" class="search-input" placeholder="Search" data-search-query="">
+    </form>
+  </div>
+</header>
+<div class="search-body">
+  <div class="search-body-inner" data-search-results="">
+  <div class="search-null">
+    <p>What are you looking for today?</p>
+  </div>
+
+</div>
+</div>
+<p class="search-dismiss-wrapper"><a href="https://developmentseed.org/blog/multilingual-jekyll-sites/#" class="search-dismiss" data-search-close=""><span>Close</span></a></p></section>
+      </main>
+
+      <footer id="site-footer" role="contentinfo">
+        <div class="row inner-row">
+          <nav id="site-elsewhere-nav" role="navigation">
+            <h2 class="hd-suptitle">Let's connect</h2>
+            <ul class="connect-menu">
+              <li class="feed"><a href="https://developmentseed.org/rss.xml" title="Subscribe to our RSS feed"><span>RSS feed</span></a></li>
+              <li class="twitter"><a href="https://twitter.com/developmentseed" title="Follow us on Twitter"><span>Twitter</span></a></li>
+              <li class="github"><a href="https://github.com/developmentseed" title="Follow us on GitHub"><span>GitHub</span></a></li>
+              <li class="flickr"><a href="https://www.flickr.com/photos/developmentseed/" title="Follow us on Flickr"><span>Flickr</span></a></li>
+            </ul>
+          </nav>
+          <p class="credits">Development Seed • 2003-2015</p>
+        </div>
+      </footer>
+
+    </div>
+  <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-65674-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4e9d9024613f5d1dfb000004');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+  
+
+
+</body></html>

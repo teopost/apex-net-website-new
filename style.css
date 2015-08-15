@@ -70,6 +70,21 @@ h6 {
     font-weight: 300;
 }
 
+.lang {
+  color: white;
+
+}
+
+.en:lang(en), .it:lang(it) {
+    font-weight: bold;
+}
+
+img {
+  width:auto;
+  height: auto;;
+  max-width:100%;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -245,6 +260,11 @@ fieldset[disabled] .btn-xl.active {
     background-color: #8BD3EB;
 }
 
+.navbar-lang {
+    color: #fff;
+    font-size: 10px;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -280,7 +300,6 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: -webkit-linear-gradient( 0deg, rgba(16,175,226,0.9) 0%, rgba(27,136,196,0.9) 50%, rgba(38,101,168,0.9) 100%), url(img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
