@@ -5,7 +5,7 @@
     <style type="text/css">
 
     header {
-      background-image: -webkit-linear-gradient( 0deg, rgba(16,175,226,0.9) 0%, rgba(27,136,196,0.9) 50%, rgba(38,101,168,0.9) 100%), url(img/header-bg.jpg);
+      background-image: -webkit-linear-gradient( 0deg, rgba(16,175,226,0.9) 0%, rgba(27,136,196,0.9) 50%, rgba(38,101,168,0.9) 100%), url({{ site.baseurl }}/img/header-bg.jpg);
     }
     </style>
 
@@ -33,6 +33,23 @@
     <![endif]-->
 
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicon.ico">
+
+<!--
+<meta http-equiv="refresh" content="0; url=it/" />
+-->
+
+    <script type="text/javascript">
+  	var userLang = navigator.language || navigator.userLanguage;
+  	if(userLang.indexOf("it") > -1) {
+
+      if (window.location.href.indexOf("/it/") == -1)
+  		   window.location.replace("{{ site.baseurl }}/it/")
+  	}
+  	else {
+  		window.location.replace("{{ site.baseurl }}");
+  	}
+  </script>
+
 
 
 </head>

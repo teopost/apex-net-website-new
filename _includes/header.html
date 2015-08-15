@@ -13,7 +13,23 @@
                 <A href="{{ site.baseurl }}/">
                   <img src="{{ site.baseurl }}/img/company-logo.png" class="img-responsive" alt="">
                   </A>
+                  <!-- Selettore lingua -->
+<!--
+                    <ul class="navbar-nav navbar-left navbar-lang">
+
+                      <li>
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="en">en</a>
+                      </li>
+
+                      <li>
+                        <a href="{{ site.baseurl }}{{ post.url }}/it/" class="it">it</a>
+                      </li>
+
+                    </ul>
+-->
+
             </div>
+
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -22,7 +38,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">{{ site.data.translations[page.lang].services }}</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
@@ -40,7 +56,12 @@
                     </li>
                 </ul>
             </div>
+
+
+
             <!-- /.navbar-collapse -->
+
+
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -57,8 +78,3 @@
             </div>
         </div>
     </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->

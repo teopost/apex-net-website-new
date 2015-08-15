@@ -7,6 +7,18 @@ baseurl: /apex-net-website-new
 
 permalink: /:categories/:title
 
+defaults:
+  -
+    scope:
+      path: _posts/en
+    values:
+      lang: en
+  -
+    scope:
+      path: _posts/it
+    values:
+      lang: it
+
 # Site settings
 title: Apex-net s.r.l
 email: info@apexnet.it

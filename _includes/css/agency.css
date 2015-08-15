@@ -63,6 +63,15 @@ h6 {
     font-weight: 300;
 }
 
+.lang {
+  color: white;
+
+}
+
+.en:lang(en), .it:lang(it) {
+    font-weight: bold;
+}
+
 img {
   width:auto;
   height: auto;;
@@ -242,6 +251,11 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #{{ site.color.secondary }};
+}
+
+.navbar-lang {
+    color: #fff;
+    font-size: 10px;
 }
 
 @media(min-width:768px) {
