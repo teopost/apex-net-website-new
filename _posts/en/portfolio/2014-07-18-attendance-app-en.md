@@ -1,6 +1,6 @@
 ---
 title: Attendance App
-subtitle: Attendance App description
+subtitle: Smartphone app designed to mark their attendance right from the phone.
 layout: article
 modal-id: 1
 date: 2014-07-18
@@ -14,7 +14,6 @@ category: portfolio
 permalink: /:categories/:title
 description: The app is designed for the students of the Bocconi University, Milan to mark their attendance right from the phone.
 ---
-
 The app is designed for the students of the Bocconi University, Milan to mark their attendance right from the phone.
 ---
 
@@ -25,7 +24,7 @@ Login
 
 The login screen appears when the app is opened for the first time or when the user is logged out.
 
-![](../../img/portfolio/attendance-app/1.png)
+![](../../img/portfolio/attendance-app-en/1.png)
 
 {{ post.title }}
 
@@ -36,19 +35,20 @@ Mark your Attendance
 
 Marking your attendance is a single step process. All you have to do is type the unique pin.
 
-![](../../img/portfolio/attendance-app/2.png)
+![](../../img/portfolio/attendance-app-en/2.png)
 
-![](../../img/portfolio/attendance-app/3.png)
+![](../../img/portfolio/attendance-app-en/3.png)
 
-![](../../img/portfolio/attendance-app/4.png)
+![](../../img/portfolio/attendance-app-en/4.png)
 
-![](../../img/portfolio/attendance-app/5.png)
+![](../../img/portfolio/attendance-app-en/5.png)
+
+![](../../img/portfolio/attendance-app-en/6.png)
+
 
 <hr>
 
 Future update
 ===
 
-Marking your attendance is a single step process. All you have to do is type the unique pin.
-
-![](../../img/portfolio/attendance-app/6.png)
+![](../../img/portfolio/attendance-app-en/7.png)

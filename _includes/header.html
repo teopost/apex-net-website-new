@@ -1,4 +1,6 @@
 <!-- Navigation -->
+{% assign t = site.data.translations[page.lang] %}
+
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,10 +40,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">{{ site.data.translations[page.lang].services }}</a>
+                        <a class="page-scroll" href="#services">{{ t.services }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">{{ t.portfolio }}</a>
                     </li>
 <!--
                     <li>
@@ -49,10 +51,10 @@
                     </li>
 -->
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#team">{{ t.team }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">{{ t.contacts }}</a>
                     </li>
                 </ul>
             </div>
@@ -73,7 +75,7 @@
                 <div class="intro-lead-in"></div>
                 <div class="intro-heading">Ideas to touch.</div>
                   <div class="intro-heading">
-                <a href="#services" class="page-scroll btn btn-xl text-left">Tell Me More</a>
+                <a href="#services" class="page-scroll btn btn-xl text-left">{{ t.header_button }}</a>
                 </div>
             </div>
         </div>

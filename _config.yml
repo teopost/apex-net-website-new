@@ -40,33 +40,37 @@ people:
   position: CEO
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/fabassi
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://www.facebook.com/fabassi
+    - title: instagram
+      url: https://instagram.com/fabas/
 
 - name: Stefano Teodorani
   pic: 2
   position: Product manager
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/teopost
     - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+      url: https://www.facebook.com/steodorani
+#    - title: linkedin
+#      url: https://www.linkedin.com/pub/stefano-teodorani/10/426/947
+#    - title: instagram
+#      url: https://instagram.com/teopost/
+    - title: google-plus
+      url: https://plus.google.com/+StefanoTeodorani
 
 - name: Andrea Calisesi
   pic: 3
   position: R&D Head
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/andreacalisesi
     - title: facebook
-      url: #
+      url: https://www.facebook.com/andrea.calisesi
     - title: google-plus
-      url: #
+      url: https://plus.google.com/106329355611967823330
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

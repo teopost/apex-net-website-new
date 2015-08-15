@@ -1,7 +1,49 @@
 en:
+
+  header_button: "Tell me more"
+
   services: "Services"
+  services_section: "Services"
+
+  services_mobile_title: "Mobile apps"
+  services_mobile_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+  services_web_title: "Web development"
+  services_web_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+  services_service_title: "System Integration"
+  services_service_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+  portfolio: "Portfolio"
+  portfolio_section: "Recent Projects"
+
+  team: "Team"
+  team_section: "People"
+
   contacts: "Contact"
+  contacts_section: "Contact Us"
 
 it:
+
+  header_button: "Esplora"
+
   services: "Servizi"
+  services_section: "Servizi"
+
+  services_mobile_title: "Sviluppo Mobile"
+  services_mobile_description: "APEX-net sviluppa applicazioni mobile per Android, IOS e Windows."
+
+  services_web_title: "Applicazioni Web"
+  services_web_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+  services_service_title: "Consulenza"
+  services_service_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+  portfolio: "Portfolio"
+  portfolio_section: "Progetti Recenti"
+
+  team: "Team"
+  team_section: "Persone"
+
   contacts: "Contatti"
+  contacts_section: "Contatti"

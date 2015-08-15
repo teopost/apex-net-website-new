@@ -1,6 +1,7 @@
 ---
 title: MyEsse3
 subtitle: MyEsse3 IOS & Android App it
+layout: article
 modal-id: 2
 date: 2014-07-17
 img: header-myesse3-app.png

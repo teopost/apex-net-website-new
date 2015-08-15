@@ -40,14 +40,18 @@
 
     <script type="text/javascript">
   	var userLang = navigator.language || navigator.userLanguage;
-  	if(userLang.indexOf("it") > -1) {
-
+    // alert(userLang);
+    // La lingua del browser è it ?
+  	if(userLang.indexOf("it") > -1)
+    {
+      // SI. Se nell'url non c'è già it faccio il redirect
       if (window.location.href.indexOf("/it/") == -1)
-  		   window.location.replace("{{ site.baseurl }}/it/")
+      {
+          // alert("sono qua");
+  		    window.location.replace("{{ site.baseurl }}/it/")
+      }
   	}
-  	else {
-  		window.location.replace("{{ site.baseurl }}");
-  	}
+
   </script>
 
 
