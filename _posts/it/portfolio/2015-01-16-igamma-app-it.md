@@ -1,17 +1,21 @@
 ---
-title: iMecc
-subtitle: iMecc iPad App
+title: iGamma
+#subtitle: iGamma iPad App it
 layout: article
 modal-id: 3
-date: 2014-07-16
-img: header-imecc-app.png
-thumbnail: thumb-imecc-app.png
+date: 2015-01-15
+img: header-igamma-app.jpg
+thumbnail: thumb-igamma-app.jpg
 alt: image-alt
 project-date: May 2014
-client: iMecc
-client-website: http://www.imecc.it
+client: Team System
+client-website: http://www.teamsystem.it
 category: portfolio
 permalink: /:categories/:title
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
+
+
+
+il testo di questo articolo e' in italiano

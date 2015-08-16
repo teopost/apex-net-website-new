@@ -1,6 +1,6 @@
 ---
 title: iGamma
-subtitle: iGamma iPad App it
+#subtitle: iGamma iPad App
 layout: article
 modal-id: 3
 date: 2015-01-15
@@ -15,7 +15,3 @@ permalink: /:categories/:title
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
-
-
-
-il testo di questo articolo e' in italiano

@@ -1,6 +1,6 @@
 ---
 title: iMecc
-subtitle: iMecc iPad App it
+#subtitle: iMecc iPad App it
 layout: article
 modal-id: 3
 date: 2014-07-16

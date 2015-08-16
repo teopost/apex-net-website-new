@@ -1,6 +1,6 @@
 ---
 title: Attendance App
-subtitle: App per IOS e Android per la registrazione degli studenti alle lezioni.
+#subtitle: App per IOS e Android per la registrazione degli studenti alle lezioni.
 layout: article
 modal-id: 1
 date: 2014-07-18

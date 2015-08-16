@@ -6,15 +6,18 @@ en:
   services_section: "Services"
 
   services_mobile_title: "Mobile apps"
-  services_mobile_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#  services_mobile_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#  services_mobile_text_button: "know"
 
   services_web_title: "Web development"
-  services_web_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#  services_web_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#  services_web_text_button: "know"
 
-  services_service_title: "System Integration"
-  services_service_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  services_service_title: "Consulting"
+#  services_service_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#  services_service_text_button: "know"
 
-  portfolio: "Portfolio"
+  portfolio: "Projects"
   portfolio_section: "Recent Projects"
 
   team: "Team"
@@ -25,21 +28,24 @@ en:
 
 it:
 
-  header_button: "Esplora"
+  header_button: "Scopri di più"
 
   services: "Servizi"
   services_section: "Servizi"
 
-  services_mobile_title: "Sviluppo Mobile"
-  services_mobile_description: "APEX-net sviluppa applicazioni mobile per Android, IOS e Windows."
+  services_mobile_title: "Applicazioni Mobile"
+  services_mobile_description: "APEX-net sviluppa applicazioni professionali per Android, IOS e Windows Phone."
+#  services_mobile_text_button: "Scopri chi ha ci ha scelto"
 
   services_web_title: "Applicazioni Web"
-  services_web_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  services_web_description: "Le applicazioni web sviluppate da APEX-net utilizzano le più avanzate e recenti architetture software."
+#  services_web_text_button: "Scopri chi ha ci ha scelto"
 
-  services_service_title: "Consulenza"
-  services_service_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  services_service_title: "Servizi di Consulenza"
+  services_service_description: "I notri professionisti forniscono da anni approfondite consulenze su tecnologie, architetture sistemistiche e database."
+#  services_service_text_button: "Scopri chi ha ci ha scelto"
 
-  portfolio: "Portfolio"
+  portfolio: "Progetti"
   portfolio_section: "Progetti Recenti"
 
   team: "Team"

@@ -1,6 +1,6 @@
 ---
 title: Attendance App
-subtitle: Smartphone app designed to mark their attendance right from the phone.
+#subtitle: Smartphone app designed to mark student attendance right from the phone.
 layout: article
 modal-id: 1
 date: 2014-07-18

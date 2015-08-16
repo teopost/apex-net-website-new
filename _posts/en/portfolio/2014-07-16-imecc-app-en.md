@@ -1,15 +1,15 @@
 ---
-title: MyEsse3
-subtitle: MyEsse3 IOS & Android App
+title: iMecc
+#subtitle: iMecc iPad App
 layout: article
-modal-id: 2
-date: 2014-07-17
-img: header-myesse3-app.png
-thumbnail: thumb-myesse3-app.png
+modal-id: 3
+date: 2014-07-16
+img: header-imecc-app.png
+thumbnail: thumb-imecc-app.png
 alt: image-alt
-project-date: January 2015
-client: Cineca
-client-website: http://www.cineca.it
+project-date: May 2014
+client: iMecc
+client-website: http://www.imecc.it
 category: portfolio
 permalink: /:categories/:title
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
