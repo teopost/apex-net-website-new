@@ -2,7 +2,6 @@
 title: iMecc
 #subtitle: iMecc iPad App it
 layout: article
-modal-id: 3
 date: 2014-07-16
 img: header-imecc-app.png
 thumbnail: thumb-imecc-app.png

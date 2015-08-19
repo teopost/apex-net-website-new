@@ -2,7 +2,6 @@
 title: iGamma
 #subtitle: iGamma iPad App
 layout: article
-modal-id: 3
 date: 2015-01-15
 img: header-igamma-app.jpg
 thumbnail: thumb-igamma-app.jpg
