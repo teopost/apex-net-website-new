@@ -11,6 +11,7 @@ project-date: April 2014
 client: Bocconi
 client-website: http://www.unibocconi.it
 category: portfolio
+subcategory: Mobile
 permalink: /:categories/:title
 description: The app is designed for the students of the Bocconi University, Milan to mark their attendance right from the phone.
 ---

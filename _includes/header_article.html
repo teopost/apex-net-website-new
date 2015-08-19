@@ -1,4 +1,6 @@
 <!-- Navigation -->
+{% assign t = site.data.translations[page.lang] %}
+
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
 
@@ -12,32 +14,26 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!--  <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a> -->
-                  <!--
-                                <img src="{{ site.baseurl }}/img/{{ page.category }}/{{ page.title }}/banner.png" class="img-responsive" alt="">
-                            -->
                 <A href="{{ site.baseurl }}/">
-                  <img src="{{ site.baseurl }}/img/company-logo.png" class="img-responsive" alt="">
+                <img src="{{ site.baseurl }}/img/company-logo.png" class="img-responsive" alt="">
                 </A>
+                <!-- Selettore lingua -->
+<!--
+                  <ul class="navbar-nav navbar-left navbar-lang">
 
+                    <li>
+                      <a href="{{ site.baseurl }}{{ post.url }}" class="en">en</a>
+                    </li>
+
+                    <li>
+                      <a href="{{ site.baseurl }}{{ post.url }}/it/" class="it">it</a>
+                    </li>
+
+                  </ul>
+-->
 
 
             </div>
-
-            <!-- Selettore lingua -->
-            <!--
-            <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right navbar-lang">
-
-                 {% assign posts=site.posts | where:"date", page.date | sort: 'path' %}
-                 {% for post in posts %}
-                                 <li>
-                   <a href="{{ site.baseurl }}{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-                           </li>
-                 {% endfor %}
-
-              </ul>
-            </div>
-          -->
 
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -68,7 +64,12 @@
                     -->
                 </ul>
             </div>
+
+
+
             <!-- /.navbar-collapse -->
+
+
         </div>
         <!-- /.container-fluid -->
     </nav>
