@@ -7,15 +7,15 @@ en:
   services_section: "Services"
 
   services_mobile_title: "Mobile apps"
-#  services_mobile_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  services_mobile_description: "APEX-net develops professional applications for Android, iOS and Windows Phone."
 #  services_mobile_text_button: "know"
 
   services_web_title: "Web development"
-#  services_web_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  services_web_description: "Web applications developed by APEX-net using the most advanced and latest software architectures."
 #  services_web_text_button: "know"
 
   services_service_title: "Consulting"
-#  services_service_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  services_service_description: "Our professionals provide years of extensive consultations on technology, systems engineering and database architectures."
 #  services_service_text_button: "know"
 
   portfolio: "Projects"
