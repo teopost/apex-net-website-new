@@ -24,49 +24,53 @@
 
 <!-- fine giro della mela -->
 
+
 <!-- Portfolio Grid list Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
 
-            {% for sottocategoria in names_uniq %}
+          {% for sottocategoria in names_uniq %}
 
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ sottocategoria }}</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
+              <!-- stampo il titolo della sottocategoria -->
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <h2 class="section-heading">{{ sottocategoria }}</h2>
+                      <!--
+                      <h3 class="section-subheading text-muted"></h3>
+                      -->
+                  </div>
+              </div>
 
               <div class="row">
-
+              <!-- ciclo per ogni post della sottocategoria -->
               {% for post in posts %}
-              {% if post.subcategory == sottocategoria %}
+                {% if post.subcategory == sottocategoria %}
 
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a href="{{ site.baseurl }}{{ post.url }}"  class="portfolio-link">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
 
-                      <div class="col-md-4 col-sm-6 portfolio-item">
-                          <a href="{{ site.baseurl }}{{ post.url }}"  class="portfolio-link">
-                              <div class="portfolio-hover">
-                                  <div class="portfolio-hover-content">
-                                      <i class="fa fa-plus fa-3x"></i>
-                                  </div>
-                              </div>
+                                {% assign name = post.url| replace:post.category,'' %}
+                                {% assign name = name | replace:'//','/' %}
 
-                              {% assign name = post.url| replace:post.category,'' %}
-                              {% assign name = name | replace:'//','/' %}
+                                <img src="{{ site.baseurl }}/img/{{ post.category }}{{ name }}/{{ post.thumbnail }}" class="img-responsive" alt="">
+                            </a>
 
-                              <img src="{{ site.baseurl }}/img/{{ post.category }}{{ name }}/{{ post.thumbnail }}" class="img-responsive" alt="">
-                          </a>
-
-                        <div class="portfolio-caption">
-                            <h4>{{ post.title }}</h4>
-                            <p class="text-muted">{{ post.subtitle }}
-                            </p>
-                        </div>
-                  </div>
-              {% endif %}
+                                <div class="portfolio-caption">
+                                    <h4>{{ post.title }}</h4>
+                                    <p class="text-muted">{{ post.subtitle }}
+                                    </p>
+                                </div>
+                       </div>
+                {% endif %}
               {% endfor %}
+
               </div>
-            {% endfor %}
+          {% endfor %}
 
         </div>
     </section>

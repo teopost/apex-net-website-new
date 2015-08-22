@@ -12,7 +12,7 @@ client-website: http://www.unibocconi.it
 category: portfolio
 subcategory: Mobile
 permalink: /:categories/:title
-description: The app is designed for the students of the Bocconi University, Milan to mark their attendance right from the phone.
+description: 
 ---
 The app is designed for the students of the Bocconi University, Milan to mark their attendance right from the phone.
 ---
